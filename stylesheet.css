@@ -1,0 +1,64 @@
+#header {
+    z-index: 1;
+    position: fixed;
+    width: 98.5%;
+    margin-top: -1%;
+    height: 60px;
+    background-color: #77ccef;
+    border: 5px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#heading {
+    font-family: "Copperplate Gothic Light", "Trebuchet MS", "Georgia", "serif";
+    font-size: 3em;
+    margin: 3px;
+}
+
+.basic_Q {
+    text-align: center;
+    font-family: "Segoe UI";
+    font-weight: bold;
+}
+
+.purpose {
+    font-family: "Segoe UI Semibold";
+    background-color: #39F856 ;
+}
+
+.mode {
+    font-family: "Segoe UI Semibold";
+    background-color: #E8F839 ;
+}
+
+#source {
+    margin-left: 35%;
+    margin-right: 50%;
+}
+
+#destination {
+    margin-top: -2.8%;
+    margin-left: 49.5%;
+    margin-right: 40%;
+}
+
+.options {
+    height:600px;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.map {
+    width: 500px;
+    height:500px;
+    border: 2px solid black;
+    display: none;
+}
+
+.distance {
+    margin-top: 3%;
+    margin-left: 70%;
+    margin-right: 20%;
+}

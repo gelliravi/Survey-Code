@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<title>Trip Survey</title>
+
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script src="jquery-2.1.1.min.js"></script>
+
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+
+</head>
+
+<body>
+
+<div id="header">
+    <h1 id="heading">TRIP SURVEY</h1>
+</div>
+
+<br/><br/><br/><br/>
+
+<div class="basic_Q">
+    <p>What was the purpose of your last trip?</p>
+    <button id="work-btn" class="purpose">WORK</button>
+    <button id="shopping-btn" class="purpose">SHOPPING</button>
+    <button id="study-btn" class="purpose">STUDY</button>
+</div>
+
+<br/>
+
+<div class="basic_Q">
+    <p>Which mode of transport did you use?</p>
+    <button class="mode">CAR</button>
+    <button class="mode">TRANSIT</button>
+</div>
+
+<br/>
+
+<div class="basic_Q">
+    <p id="source">Source</p>
+    <p id="destination">Destination</p>
+    <input id="source-textbox" type="text" value="" />
+    <input id="destination-textbox" type="text" value="" />
+    <button id="go-btn">Go</button>
+</div>
+
+<br/><br/>
+
+<div class="options">
+    <div id="map-canvas-1" class="map"></div>
+    <button id="distance-btn-1" class="distance">Distance</button>
+    <div id="outputDiv1"></div>
+</div>
+
+<br/><br/>
+
+<div class="options">
+    <div id="map-canvas-2" class="map"></div>
+    <button id="distance-btn-2" class="distance">Distance</button>
+    <div id="outputDiv2"></div>
+</div>
+
+<br/><br/>
+
+<div class="options">
+    <div id="map-canvas-3" class="map"></div>
+    <button id="distance-btn-3" class="distance">Distance</button>
+    <div id="outputDiv3"></div>
+</div>
+
+<br/><br/>
+
+<script src="maps.js"></script>
+
+</body>
+
+</html>
